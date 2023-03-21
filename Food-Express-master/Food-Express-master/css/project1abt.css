@@ -1,0 +1,191 @@
+.head {
+      font-family: Tahoma, sans-serif ;
+      background-image: url("../images/head5.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center ;
+      text-align: center;
+      font-size: 30px;
+      border-style: inset;
+      box-sizing: border-box;
+      color: rgba(254,254,254,0.9);
+      font-style: italic ;
+      
+      
+      }
+
+    h1.head {
+        font-size:50px; 
+        font-weight: bold;
+          }
+     
+    .nav{
+         margin:5px;
+         overflow: hidden;
+         background-color: #1c1313 ;
+         border-radius: 10px;
+         margin-bottom: 15px;
+        }  
+
+    .nav a {
+
+           float: left;
+           display: block;
+           color: #f2f2f2;
+           padding: 16px 20px ;
+           opacity:0.9;
+           font-size:20px;
+           text-decoration: none;
+           font-family: tahoma, sans-serif;
+           }
+
+
+    .nav a:hover{
+              background-color: #ddd ;
+              color: black;   
+
+                  } 
+    
+
+
+   .nav a.a {
+
+           background-color: #bf1617 ;
+           color: white;
+           }
+
+     body{
+          margin: 0 ; 
+          background-image:url("../images/back2.JPG"); 
+          background-repeat: no-repeat;
+          background-size: cover;
+         }
+
+
+     .profile{
+          width: 400px;
+          height: 400px;
+          float: left;
+          margin: 10px;
+
+     }
+
+     .profile img{
+
+      width:300px;
+      height: 300px;
+      display:block;
+      margin-left: 100px;
+      border-radius: 50%;
+      margin: 10px;
+      margin-top: 120px;
+     }  
+
+     .details{
+       height: 430px;
+       font-family: tahoma, sans-serif;
+       font-size: 25px;
+       border: 2px solid #bbb;
+       margin-top: 100px;
+       color: white;
+       line-height: 45px;
+       font-style: italic;
+ }
+
+    
+
+   .name{
+          font-size: 32px;
+          font-weight: bold;
+          font-style: normal;
+          margin-top: 60px;
+   }
+
+   .fa{   
+        
+          text-decoration: none;
+          padding:20px;
+          text-align: center;
+          width: 40px;
+          height: 40px;
+          margin: 6px ;
+          transition: 0.3s;
+          float:right;
+        
+   }
+
+   .fa-facebook{
+    
+        background:#3b5998;
+        color: white;
+   }
+
+   .fa-instagram{
+        
+         background: #125688;
+         color: white;
+   }
+        
+    .fa-linkedin{
+       background:#007bb5;
+       color: white;
+       margin-left: 25px;
+
+    }   
+
+    .fa:hover{
+      opacity: 0.9;
+      border-radius: 50%;
+    }        
+
+  .para{
+    margin:15px;
+    font-size: 22px;
+    color: white;
+    font-family: tahoma, sans-serif;
+    font-style: italic;
+    
+  } 
+   
+   @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: right;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 

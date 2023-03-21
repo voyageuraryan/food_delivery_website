@@ -1,0 +1,236 @@
+   .head {
+      font-family: Tahoma, sans-serif ;
+      background-image: url("../images/head5.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center ;
+      text-align: center;
+      font-size: 30px;
+      border-style: inset;
+      box-sizing: border-box;
+      color: rgba(254,254,254,0.9);
+      font-style: italic ;
+      
+      
+      }
+
+    h1.head {
+        font-size:50px; 
+        font-weight: bold;
+          }
+     
+    .nav{
+         margin:5px;
+         overflow: hidden;
+         background-color: #1c1313 ;
+         border-radius: 10px;
+         margin-bottom: 15px;
+        }  
+
+    .nav a {
+
+           float: left;
+           display: ;
+           color: #f2f2f2;
+           padding: 16px 20px ;
+           opacity:0.9;
+           font-size:20px;
+           text-decoration: none;
+           font-family: tahoma, sans-serif;
+           }
+
+
+    .nav a:hover{
+              background-color: #ddd ;
+              color: black;   
+
+                  } 
+    
+
+
+   .nav a.a {
+
+           background-color: #bf1617 ;
+           color: white;
+           }
+
+
+   .gallery{
+            width: 230px;
+            margin:10px;
+            float:left;
+            border:2px solid #bbb;
+            border-radius: 50%;
+            transition: 0.5s ;
+         }
+
+
+  .gallery img{
+            
+            height: 230px;
+            width: 230px;
+            display: block;
+            border-radius: 50%;
+            transition:0.3s;
+   }
+
+   .gallery:hover{
+                   height: 240px;
+                   width:240px;
+                   border:2px solid #777; 
+   }
+
+   .gallery img:hover{
+                   height: 240px;
+                   width: 240px;
+                   
+   }
+
+ 
+    body{
+          margin: 0 ; 
+          background-image:url("../images/back2.JPG"); 
+          background-repeat: no-repeat;
+          background-size: cover;
+
+    }
+
+   input[type=text]
+        {   padding-left: 50px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 20px;
+            padding: 13px;
+            background-image:url("../images/search2.png");
+            background-position:  ;
+            background-repeat: no-repeat;
+            background-size: 2px;
+            width: 300px;
+            -webkit-transition: width 0.4s ease-in-out;  
+            transition: width 0.4s ease-in-out;
+            position:relative;
+            left:25px;
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+
+  input[type=text]:focus{
+  
+    width: 45% ;
+
+  }
+
+  
+
+   .body{
+          padding:10px;
+          font-family: tahoma, sans-serif ;
+          box-sizing: border-box;
+          border-style: groove;
+          border-radius: 5px;
+          margin-top: 50px;
+          font-size: 20px;
+          background: url("../images/body8.JPG") no-repeat center;
+          background-size: cover;
+          color: white;
+          margin-left: 10px;
+          margin-right: 70px;
+
+  }
+  
+  .Restraunt{
+
+       padding-left: 10px;
+       font-style: italic;
+       text-decoration: underline;
+  }
+ 
+
+  .btn{
+    font-size: 20px ;
+    background-color: #bf1617;
+    color:white;
+    cursor: pointer;
+    transition: all 0.5s;
+    width:120px;
+    height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    border:none ;
+    margin-right: 12px;
+  }
+
+  
+
+  .btn span{
+
+    cursor: pointer ;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s ;
+  }
+
+  .btn span:after{
+     
+      content: '\00bb' ;
+      position: absolute;
+      opacity: 0 ;
+      top: 0 ;
+      right: -10px ;
+      transition: 0.5 ;
+  }
+       
+       .btn:hover span{
+          padding-right: 18px;
+          
+
+       }
+
+       .btn:hover span:after{
+
+        opacity:1;
+        right:0;
+       }
+
+
+.page{
+    height: 30px;
+    width: 100%;
+    margin:10px;
+}
+.page a{
+    position: relative;
+    left: 470px;
+    color:white ;
+    float: left;
+    padding : 12px 18px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 50%;
+    font-size: 23px;
+    margin-right: 5px;
+}
+ 
+ .page a.pageno{
+       background-color: #0a3272;
+       
+ }
+
+ .page a:hover:not(.active){
+
+  background-color: #ddd;
+  color:black;
+ }
+
+  
+  .login a{
+
+    float: right;
+    font-size: 22px;
+    font-family: tahoma, sans-serif;
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+    margin: 10px;
+  }
+
